@@ -1,4 +1,4 @@
-# DopaminCheker - App de biofeedback para autorregulación en redes sociales
+# App de biofeedback para autorregulación en redes sociales
 
 Aplicación Android del Trabajo de Fin de Grado **«Herramientas abiertas de biofeedback en
 tiempo real para autorregulación en el uso de redes sociales»** (Carlos Sotomayor Romillo,
