@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ic_launcher_background">#0D0D0D</color>
+
+    <!-- Base palette -->
+    <color name="colorBackground">#0A0A0F</color>
+    <color name="colorSurface">#16161E</color>
+    <color name="colorSurfaceElevated">#1E1E28</color>
+    <color name="colorBorder">#2A2A36</color>
+    <color name="colorAccent">#58D68D</color>
+    <color name="colorAccentDim">#1E4D31</color>
+    <color name="colorDanger">#E05252</color>
+    <color name="colorWarning">#F0A500</color>
+    <color name="colorTextPrimary">#F0F0F5</color>
+    <color name="colorTextSecondary">#6E6E82</color>
+    <color name="colorTextTertiary">#3A3A50</color>
+
+    <!-- Platform accent colors (top strip on cards) -->
+    <color name="colorYoutube">#FF3B30</color>
+    <color name="colorInstagram">#C13584</color>
+    <color name="colorReddit">#FF6314</color>
+    <color name="colorTiktok">#69C9D0</color>
+    <color name="colorReading">#58D68D</color>
+
+    <!-- Overlay widget -->
+    <color name="colorOverlayBg">#CC0A0A14</color>
+    <color name="colorOverlayBorder">#33FFFFFF</color>
+</resources>

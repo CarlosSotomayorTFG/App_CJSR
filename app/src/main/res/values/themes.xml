@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DopaminCheker" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/colorBackground</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowEnterTransition">@android:transition/fade</item>
+        <item name="android:windowExitTransition">@android:transition/fade</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorBackground</item>
+        <item name="colorPrimaryDark">@color/colorBackground</item>
+    </style>
+
+    <style name="Theme.DopaminCheker.Session" parent="Theme.DopaminCheker">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style>
+
+    <style name="Widget.DopaminCheker.Button.Primary" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorBackground</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:letterSpacing">0.04</item>
+    </style>
+
+    <style name="Widget.DopaminCheker.Button.Danger" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">@color/colorDanger</item>
+        <item name="android:letterSpacing">0.04</item>
+    </style>
+
+    <style name="Widget.DopaminCheker.Button.Warning" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorBackground</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">@color/colorWarning</item>
+        <item name="android:letterSpacing">0.04</item>
+    </style>
+</resources>

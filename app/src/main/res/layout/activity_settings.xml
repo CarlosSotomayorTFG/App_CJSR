@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:fillViewport="true"
+    android:overScrollMode="never">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingBottom="48dp">
+
+        <!-- Top bar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="40dp">
+
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_back"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Volver"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="@string/settings_title"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- ── SUJETO ───────────────────────────────────────────────────────── -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/section_subject"
+            android:textColor="@color/colorAccent"
+            android:textSize="11sp"
+            android:letterSpacing="0.14"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/etSubjectAlias"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:hint="@string/subject_hint"
+                android:textColorHint="@color/colorTextTertiary"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="17sp"
+                android:background="@null"
+                android:inputType="text"
+                android:maxLines="1"
+                android:imeOptions="actionDone"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/colorBorder"/>
+
+            <Button
+                android:id="@+id/btnSaveAlias"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_gravity="end"
+                android:text="Guardar"
+                style="@style/Widget.DopaminCheker.Button.Primary"
+                android:paddingHorizontal="24dp"/>
+        </LinearLayout>
+
+        <!-- ── CALIBRACIÓN ─────────────────────────────────────────────────── -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/section_calibration"
+            android:textColor="@color/colorAccent"
+            android:textSize="11sp"
+            android:letterSpacing="0.14"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calibration_desc"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="14sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/btnStartCalibration"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="@string/btn_start_calibration"
+                style="@style/Widget.DopaminCheker.Button.Warning"/>
+        </LinearLayout>
+
+        <!-- ── DIAGNÓSTICO ─────────────────────────────────────────────────── -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="10dp"
+            android:text="DIAGNÓSTICO"
+            android:textColor="@color/colorAccent"
+            android:textSize="11sp"
+            android:letterSpacing="0.14"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comprueba que la pulsera Amazfit Band 7 está conectada y enviando datos de frecuencia cardíaca correctamente."
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="14sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/btnDiagnosticHR"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Diagnóstico FC (Band 7)"
+                style="@style/Widget.DopaminCheker.Button.Primary"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:id="@+id/btnDiagnosticBlink"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Diagnóstico parpadeo (cámara)"
+                style="@style/Widget.DopaminCheker.Button.Primary"/>
+        </LinearLayout>
+
+        <!-- ── DATOS ────────────────────────────────────────────────────────── -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/section_export"
+            android:textColor="@color/colorAccent"
+            android:textSize="11sp"
+            android:letterSpacing="0.14"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Genera un archivo ZIP con todas las sesiones del participante actual y permite enviarlo por correo u otras apps."
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="14sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/btnConclude"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="@string/btn_conclude"
+                style="@style/Widget.DopaminCheker.Button.Danger"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

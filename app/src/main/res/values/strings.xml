@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DopaminCheker</string>
+    <string name="permission_camera_rationale">La cámara frontal es necesaria para detectar parpadeos en tiempo real.</string>
+    <string name="launcher_title">Monitor de sesiones</string>
+    <string name="select_platform">Sin sujeto configurado</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Configuración</string>
+    <string name="section_subject">SUJETO</string>
+    <string name="subject_hint">Alias del participante (ej. S01)</string>
+    <string name="subject_saved">Alias guardado</string>
+    <string name="section_calibration">CALIBRACIÓN</string>
+    <string name="calibration_desc">Sesión de lectura de 20 minutos para registrar la línea de base del participante. Recibirás avisos de progreso cada 5 minutos.</string>
+    <string name="btn_start_calibration">Iniciar calibración (20 min)</string>
+    <string name="calibration_no_subject">Configura el alias del participante antes de calibrar.</string>
+    <string name="section_export">DATOS</string>
+    <string name="btn_conclude">Exportar datos del experimento</string>
+    <string name="conclude_confirm_title">Exportar experimento</string>
+    <string name="conclude_confirm_msg">Se generará un archivo ZIP con todas las sesiones del participante actual.</string>
+    <string name="conclude_no_data">No hay sesiones registradas para este participante.</string>
+    <string name="export_email_subject">DopaminCheker — datos experimento: </string>
+
+    <!-- Calibration in-session -->
+    <string name="calibration_notification_title">Calibración en progreso</string>
+    <string name="calibration_cancel_title">Cancelar calibración</string>
+    <string name="calibration_cancel_msg">Los datos parciales no se conservarán. ¿Deseas continuar?</string>
+    <string name="calibration_complete_title">Calibración completada</string>
+    <string name="calibration_complete_msg">La línea de base se ha registrado correctamente.</string>
+</resources>

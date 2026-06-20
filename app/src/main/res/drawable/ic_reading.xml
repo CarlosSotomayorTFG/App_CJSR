@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <!-- Fondo verde oscuro -->
+    <path
+        android:fillColor="#2D6A4F"
+        android:pathData="M9,22 C9,17.03 13.03,13 18,13 L54,13 C58.97,13 63,17.03 63,22 L63,50 C63,54.97 58.97,59 54,59 L18,59 C13.03,59 9,54.97 9,50 Z"/>
+    <!-- Página izquierda del libro -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14,22 L14,50 C14,50 26,47 36,50 L36,22 C36,22 26,19 14,22 Z"/>
+    <!-- Página derecha del libro -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,22 L58,50 C58,50 46,47 36,50 L36,22 C36,22 46,19 58,22 Z"/>
+    <!-- Líneas de texto página izquierda -->
+    <path
+        android:fillColor="#2D6A4F"
+        android:strokeColor="#2D6A4F"
+        android:strokeWidth="1.5"
+        android:pathData="M18,28 L33,27 M18,32 L33,31 M18,36 L33,35 M18,40 L30,39"/>
+    <!-- Líneas de texto página derecha -->
+    <path
+        android:fillColor="#2D6A4F"
+        android:strokeColor="#2D6A4F"
+        android:strokeWidth="1.5"
+        android:pathData="M39,27 L54,28 M39,31 L54,32 M39,35 L54,36 M39,39 L52,40"/>
+    <!-- Lomo del libro (línea central) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#DDDDDD"
+        android:strokeWidth="1.5"
+        android:pathData="M36,20 L36,51"/>
+</vector>

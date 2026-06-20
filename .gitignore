@@ -1,0 +1,21 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+app/src/main/assets/face_landmarker.task
+
+# Build de módulos (Android Studio)
+**/build/
+.kotlin/
+
+# Datos de participantes — NO subir (protección de datos / RGPD)
+/Resultados/
+
+# Credenciales de la pulsera (token de autenticación) — no versionar
+app/src/main/java/com/dopamincheker/band/BandCredentials.kt

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <!-- Fondo con gradiente Instagram -->
+    <path android:pathData="M9,22 C9,17.03 13.03,13 18,13 L54,13 C58.97,13 63,17.03 63,22 L63,50 C63,54.97 58.97,59 54,59 L18,59 C13.03,59 9,54.97 9,50 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="9"
+                android:startY="59"
+                android:endX="63"
+                android:endY="13">
+                <item android:offset="0.0" android:color="#FCAF45"/>
+                <item android:offset="0.3" android:color="#E1306C"/>
+                <item android:offset="0.7" android:color="#833AB4"/>
+                <item android:offset="1.0" android:color="#405DE6"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Cuerpo de la cámara -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:pathData="M22,27 L22,45 L50,45 L50,27 L44,27 L42,22 L30,22 L28,27 Z"/>
+    <!-- Objetivo (círculo) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:pathData="M36,36 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0"/>
+    <!-- Flash -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M45.5,24 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"/>
+</vector>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <!-- Fondo naranja -->
+    <path
+        android:fillColor="#FF4500"
+        android:pathData="M9,22 C9,17.03 13.03,13 18,13 L54,13 C58.97,13 63,17.03 63,22 L63,50 C63,54.97 58.97,59 54,59 L18,59 C13.03,59 9,54.97 9,50 Z"/>
+    <!-- Cuerpo del alien (Snoo) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,49 C28,49 23,45 23,41 C23,37 28,34 36,34 C44,34 49,37 49,41 C49,45 44,49 36,49 Z"/>
+    <!-- Cabeza -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,22 m-10,0 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0"/>
+    <!-- Ojo izquierdo -->
+    <path
+        android:fillColor="#FF4500"
+        android:pathData="M30,21 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0"/>
+    <!-- Ojo derecho -->
+    <path
+        android:fillColor="#FF4500"
+        android:pathData="M42,21 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0"/>
+    <!-- Sonrisa -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF4500"
+        android:strokeWidth="2"
+        android:pathData="M30,26 Q36,30 42,26"/>
+    <!-- Antena -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,12 L40,18 L36,18 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,10 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0"/>
+    <!-- Orejas (pequeños círculos a los lados del cuerpo) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22,40 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,40 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"/>
+</vector>
